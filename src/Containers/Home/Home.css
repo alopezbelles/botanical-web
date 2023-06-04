@@ -1,0 +1,24 @@
+
+
+
+.homeDesign{
+    padding: 0;
+}
+
+.col1Design {
+  margin: 0;
+  padding: 0;
+}
+
+.rowVideoDesign {
+    margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.video {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
