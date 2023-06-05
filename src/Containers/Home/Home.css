@@ -38,6 +38,22 @@
   text-align: center;
 }
 
-.logoHome{
-    width: 15em;
+.logoHome {
+  width: 15em;
 }
+
+/* .colCardsDesign {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+   */
+
+   .cardContainer {
+    margin: 2em;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
