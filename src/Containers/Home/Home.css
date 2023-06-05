@@ -42,18 +42,17 @@
   width: 15em;
 }
 
-/* .colCardsDesign {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-   */
+.cardContainer {
+  margin: 2em;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
 
-   .cardContainer {
-    margin: 2em;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 20px;
-    justify-content: center;
-    align-items: center;
+@media screen and (max-width: 650px) {
+  .cardContainer {
+    grid-template-columns: repeat(1, 1fr);
   }
+}

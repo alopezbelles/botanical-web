@@ -3,6 +3,8 @@ import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from './Components/Header/Header';
 import Home from './Containers/Home/Home';
+import Footer from './Components/Footer/Footer';
+import GreenHub from './Containers/GreenHub/GreenHub'
 
 function App() {
   return (
@@ -11,12 +13,11 @@ function App() {
       <Header />
       <Routes>
       <Route path="/" element={<Home />} />
+      <Route path="/greenhub" element={<GreenHub />} />
 
       </Routes>
       
-            {/* Aquí va footer */}
-
-      
+      <Footer/>      
       
       </BrowserRouter>
       

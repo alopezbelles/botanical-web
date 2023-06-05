@@ -2,8 +2,8 @@
     {
       "id": 0,
       "path_image": "https://drive.google.com/uc?id=1MW3plBzakQNBz6THbipoOlvnO4mPjiAP",
-      "name": "Arrowhead",
-      "description": "Description"
+      "name": "ARROWHEAD",
+      "description": "The Arrowhead plant, scientifically known as Syngonium podophyllum, is a popular houseplant known for its arrowhead-shaped leaves. It belongs to the Araceae family and is native to tropical rainforests in Central and South America. The Arrowhead plant is a compact and trailing vine that can grow up to 1-3 feet in height. "
     },
     {
         "id": 1,
@@ -39,6 +39,12 @@
         "id": 6,
         "path_image": "https://drive.google.com/uc?id=1igOjqjo61Ld48bBtIlxd-5x1Mev0j8tK",
         "name": "Sansevieria",
+        "description": "Description"   
+      },
+      {
+        "id": 7,
+        "path_image": "https://drive.google.com/uc?id=13aiNHmQfdL9ueqqnwcn6J4UD_eV3sjJ1",
+        "name": "Ficus-Lyrata",
         "description": "Description"   
       }
    

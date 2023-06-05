@@ -1,0 +1,16 @@
+.containerFooter {
+    background-color: #E4E8DD;
+    color: #2c2c2c;
+    font-size: 12px;
+    font-style: italic;
+    height: auto;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .containerFooter p{
+    text-align: center;
+  }
