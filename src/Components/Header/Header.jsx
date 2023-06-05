@@ -11,7 +11,7 @@ import Navbar from "react-bootstrap/Navbar";
 
 // STYLES AND AESSETS
 import './Header.css';
-// import logo from "../../Assets/ALO.png"
+import LogoHeader from "../../Assets/logo-header.png"
 
 function Header(){
     const [expanded, setExpanded] = useState(false);
@@ -23,16 +23,16 @@ function Header(){
       expanded={expanded}
     >
       <Container>
-        {/* <Navbar.Brand href="/">
-          <Image src={logo} className="logoNavbar"></Image>
-        </Navbar.Brand> */}
+        <Navbar.Brand href="/">
+          <Image src={LogoHeader} className="logoNavbar"></Image>
+        </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="basic-navbar-nav"
           onClick={() => setExpanded(expanded ? false : "expanded")}
         />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto justify-content-center">
-            <Nav.Link href="/">Portfolio</Nav.Link>
+            <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/about">About Me</Nav.Link>
             {/* <Nav.Link href="/experience">Experience</Nav.Link> */}
             <Nav.Link href="/contact">Contact</Nav.Link>

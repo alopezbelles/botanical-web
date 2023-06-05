@@ -1,0 +1,47 @@
+[
+    {
+      "id": 0,
+      "path_image": "https://drive.google.com/uc?id=1DHHuPpheyaffUHFz6uvYr0M2inVoNs_y",
+      "name": "Arrowhead",
+      "description": "Description"
+    },
+    {
+        "id": 1,
+        "path_image": "https://drive.google.com/uc?id=1DHHuPpheyaffUHFz6uvYr0M2inVoNs_y",
+        "name": "Cinta",
+        "description": "Description"
+      },
+      {
+        "id": 2,
+        "path_image": "https://drive.google.com/uc?id=1DHHuPpheyaffUHFz6uvYr0M2inVoNs_y",
+        "name": "Echinocactus",
+        "description": "Description"  
+      },
+      {
+        "id": 3,
+        "path_image": "https://drive.google.com/uc?id=1DHHuPpheyaffUHFz6uvYr0M2inVoNs_y",
+        "name": "Fern",
+        "description": "Description"
+      },
+      {
+        "id": 4,
+        "path_image": "https://drive.google.com/uc?id=1DHHuPpheyaffUHFz6uvYr0M2inVoNs_y",
+        "name": "ficus",
+        "description": "Description" 
+      },
+      {
+        "id": 5,
+        "path_image": "https://drive.google.com/uc?id=1DHHuPpheyaffUHFz6uvYr0M2inVoNs_y",
+        "name": "Opuntia",
+        "description": "Description"   
+      },
+      {
+        "id": 6,
+        "path_image": "https://drive.google.com/uc?id=1DHHuPpheyaffUHFz6uvYr0M2inVoNs_y",
+        "name": "Sansevieria",
+        "description": "Description"   
+      }
+   
+    
+  ]
+  
