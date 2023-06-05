@@ -23,7 +23,7 @@ function Header(){
       expanded={expanded}
     >
       <Container>
-        <Navbar.Brand href="/">
+        <Navbar.Brand  href="/">
           <Image src={LogoHeader} className="logoNavbar"></Image>
         </Navbar.Brand>
         <Navbar.Toggle
