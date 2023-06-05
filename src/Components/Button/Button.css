@@ -1,0 +1,13 @@
+.customButtonDesign{
+    background-color: rgb(175, 184, 173);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    width: 7em;
+    height: 3em;
+  }
+  
+  .customButtonDesign:hover{
+    background-color: rgb(98, 106, 96);
+  }
+  

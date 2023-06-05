@@ -58,6 +58,25 @@
   width: 15em;
 }
 
+.buttonDesign{
+  background-color: rgb(175, 184, 173);
+  border: none;
+}
+
+.buttonDesign:hover{
+  background-color: rgb(98, 106, 96);
+}
+
+.modalDesign{
+  background-color: #e4e8dd;
+  color: rgb(131, 152, 129);
+  padding: 2em;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 @media screen and (max-width: 360px) {
     .card {        

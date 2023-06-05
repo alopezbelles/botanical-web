@@ -26,7 +26,7 @@ function Home() {
             </div>
           </Col>
         </Row>
-        <div className="cardContainer">
+        <div id="cardId" className="cardContainer">
           {data.map((plant) => (
             <CardPlant
               key={plant.id}
@@ -34,6 +34,7 @@ function Home() {
               path_image={plant.path_image}
               name={plant.name}
               description={plant.description}
+              description2={plant.description2}
             />
           ))}
         </div>
