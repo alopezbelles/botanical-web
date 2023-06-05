@@ -51,6 +51,15 @@
   align-items: center;
 }
 
+.fade-in {
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
+
+.fade-in.visible {
+  opacity: 1;
+}
+
 @media screen and (max-width: 650px) {
   .cardContainer {
     grid-template-columns: repeat(1, 1fr);

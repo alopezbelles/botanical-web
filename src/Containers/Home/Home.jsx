@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import data from "../../Assets/dataPlants.json";
 
 
@@ -14,6 +14,12 @@ import Logo from "../../Assets/logo.png";
 import CardPlant from "../../Components/Card/Card";
 
 function Home() {
+  const [isVisible, setIsVisible] = useState(false);
+
+  useEffect(() => {
+    setIsVisible(true);
+  }, []);
+
     return (
       <Container fluid className="homeDesign">
         <Row className="rowVideoDesign">
@@ -21,7 +27,7 @@ function Home() {
             <video className="video" autoPlay muted loop>
               <source src={Video1} type="video/mp4" />
             </video>
-            <div className="centeredText">
+            <div className={`centeredText ${isVisible ? 'fade-in visible' : 'fade-in'}`}>
               <img className="logoHome" src={Logo} alt="Logo" />
             </div>
           </Col>
