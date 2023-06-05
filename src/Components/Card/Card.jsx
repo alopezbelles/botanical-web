@@ -43,12 +43,14 @@ function CardPlant({ id, path_image, name, description, description2 }) {
           <Button className="buttonDesign" text="+More Info" onClick={openModal}>+ More Info</Button>
         </div>
       </div>
-      <Modal  show={modalOpen} onHide={closeModal} centered>
+      <Modal show={modalOpen} onHide={closeModal} centered>
         <Modal.Body className="modalDesign">
           <h1>{name}</h1>
           <img src={path_image} alt={name} />
           <p>{description}</p>
-          <p>{description2}</p>
+          {description2.map((paragraph, index) => (
+            <p key={index}>{paragraph}</p>
+          ))}
         </Modal.Body>
         <Modal.Footer>
           <Button className="buttonDesign" variant="secondary" onClick={closeModal}>
@@ -58,6 +60,7 @@ function CardPlant({ id, path_image, name, description, description2 }) {
       </Modal>
     </div>
   );
+  
 }
 
 export default CardPlant;

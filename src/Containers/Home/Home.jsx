@@ -32,6 +32,10 @@ function Home() {
             </div>
           </Col>
         </Row>
+        <Row className="descriptionPharagraph">
+          <p className="description">GreenHub is an application inspired by the format of a children's card game, specifically developed to meet the needs of plant enthusiasts. With its appealing design and intuitive interface, GreenHub allows you to visually identify the plants you want to explore and provides detailed information about each one. </p>
+          <p className="description">Immerse yourself in this exciting experience and discover a world full of botanical knowledge as you explore the wide variety of plants available on GreenHub. Learn, enjoy, and delve into the fascinating universe of plants with GreenHub! 🌿</p>
+        </Row>
         <div id="cardId" className="cardContainer">
           {data.map((plant) => (
             <CardPlant
