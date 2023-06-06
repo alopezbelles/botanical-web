@@ -22,7 +22,7 @@ function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Aquí puedes manejar el envío del formulario, por ejemplo, hacer una llamada a una API o ejecutar alguna lógica de negocio
+    // Implementar llamada API, backend
     console.log("Email:", email);
     console.log("Subject:", subject);
     console.log("Message:", message);
