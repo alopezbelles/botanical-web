@@ -32,8 +32,8 @@ function Header(){
         />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto justify-content-center">
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="#cardId">Discover</Nav.Link>
+            <Nav.Link href="/">Discover</Nav.Link>
+            {/* <Nav.Link href="/discover">Discover</Nav.Link> */}
             <Nav.Link href="/greenhub">GreenHub</Nav.Link>
             {/* <Nav.Link href="/experience">Experience</Nav.Link> */}
             <Nav.Link href="/contact">Contact</Nav.Link>

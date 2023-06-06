@@ -5,6 +5,7 @@ import Header from './Components/Header/Header';
 import Home from './Containers/Home/Home';
 import Footer from './Components/Footer/Footer';
 import GreenHub from './Containers/GreenHub/GreenHub'
+import Contact from './Containers/Contact/Contact'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/greenhub" element={<GreenHub />} />
+      <Route path="/contact" element={<Contact />} />
 
       </Routes>
       

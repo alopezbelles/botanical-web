@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+.container-contact {
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(131, 152, 129);
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1.contact-title {
+  margin-bottom: 1em;
+  font-size: 28px;
+}
+
+form.contact-form {
+  width: 100%;
+  max-width: 400px;
+}
+
+form.contact-form > div {
+  margin-bottom: 1em;
+}
+
+label.contact-label {
+  display: block;
+  margin-bottom: 0.5em;
+  font-size: 18px;
+}
+
+input.contact-input,
+textarea.contact-textarea {
+  width: 100%;
+  padding: 0.5em;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea.contact-textarea {
+  height: 120px;
+}
+
+button.contact-button {
+  background-color: rgb(175, 184, 173);
+  border: none;
+  color: white;
+  padding: 0.5em 1em;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button.contact-button:hover {
+  background-color: rgb(98, 106, 96);
+}
+
+@media screen and (max-width: 360px) {
+  .container-contact {
+    padding: 1em;
+  }
+}

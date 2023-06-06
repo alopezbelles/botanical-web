@@ -1,15 +1,54 @@
-.logoGreenHub{
-    width: 15em;
-
+.logoGreenHub {
+  width: 15em;
 }
 
 .centeredLogo {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.rowAboutDesign {
+  color: rgb(131, 152, 129);
+
+  margin-top: 2em;
+}
+
+.row2GreenHub {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Montserrat", sans-serif;
+  color: rgb(131, 152, 129);
+
+}
+
+.pharagraphRow2 {
+  padding: 2em;
+}
+
+.backgroundImage {
+  width: 45vw;
+}
+
+@media screen and (max-width: 750px) {
+  .row2GreenHub {
+    flex-direction: column;
   }
+  .backgroundImage {
+    width: 80vw;
+    
+  }
+}
