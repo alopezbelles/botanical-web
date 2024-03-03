@@ -1,0 +1,27 @@
+.custom-cursor {
+    width: 16px; /* Ajusta el tamaño del círculo según tus preferencias */
+    height: 16px;
+    background-color: black; /* Color del círculo */
+    border-radius: 50%; /* Hace que el círculo tenga forma redonda */
+    position: fixed; /* Cambia la posición a fija */
+    pointer-events: none; /* Evita que el círculo interactúe con los elementos debajo de él */
+    z-index: 9999; /* Asegúrate de que el círculo esté en la capa superior */
+    transition: transform 0.2s ease; /* Agrega una transición suave al cambio de tamaño */
+  }
+  
+  .custom-cursor.hover {
+    transform: scale(1.2); /* Aumenta el tamaño del cursor personalizado al hacer hover */
+  }
+
+  
+  .custom-cursor-shadow {
+    width: 16px; /* Ajusta el tamaño de la sombra según tus preferencias */
+    height: 16px;
+    background-color: rgba(0, 0, 0, 0.1); /* Color y opacidad de la sombra */
+    border-radius: 50%; /* Hace que la sombra tenga forma redonda */
+    position: fixed; /* Cambia la posición a fija */
+    pointer-events: none; /* Evita que la sombra interactúe con los elementos debajo de ella */
+    z-index: 9998; /* Asegúrate de que la sombra esté por debajo del cursor personalizado */
+    transition: transform 0.2s ease; /* Agrega una transición suave al cambio de posición */
+  }
+  
